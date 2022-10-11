@@ -8,7 +8,8 @@ RDX.RegisterCommand('dualwield',function(source)
  local SecondArm = GetHashKey("WEAPON_REVOLVER_DOUBLEACTION_GAMBLER")
 
  xPlayer.addWeapon("WEAPON_REVOLVER_CATTLEMAN_JOHN", 1)
- xPlayer.addWeapon("WEAPON_REVOLVER_DOUBLEACTION_GAMBLER", 1)   
+ xPlayer.addWeapon("WEAPON_REVOLVER_DOUBLEACTION_GAMBLER", 1) 
+ TriggerClientEvent('ActivateDualWield')  
 end)
 
 
